@@ -1,5 +1,6 @@
 # import random module 
 import random
+import exit
 
 # Print multiline instruction 
 # performstring concatenation of string 
@@ -85,7 +86,7 @@ while True:
 
 	# if user input n or N then condition is True 
 	if ans == 'n' or ans == 'N': 
-		break
+            exit()
 	
 # after coming out of the while loop 
 # we print thanks for playing 
